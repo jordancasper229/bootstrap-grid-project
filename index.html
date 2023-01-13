@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="row my-row">
 
@@ -22,37 +22,27 @@
             </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                
-                
                 <ul class="nav navbar-nav nav-list">
                   <button type="button" class="btn btn-primary btn-block compose-button">Compose</button>
                   <li class="nav-item active">
                     <a href="#" class="nav-link">Inbox</a>
                   </li>
-
-              
-
+    
                   <li class="nav-item">
                     <a href="#" class="nav-link">Starred</a>
                   </li>
-
-              
 
                   <li class="nav-item">
                     <a href="#" class="nav-link">Sent</a>
                   </li>
 
-
-
                   <li class="nav-item">
                     <a href="#" class="nav-link">Drafts</a>
                   </li>
 
-              
-
                   <li class="nav-item">
                     <a href="#" class="nav-link">Spam</a>
                   </li>
-
 
                   <li class="nav-item">
                     <a href="#" class="nav-link">Trash</a>
@@ -66,27 +56,52 @@
 
         <!-- middle column, email list -->
         <div class="col-sm-12 col-md-5 col-lg-4 email-col">
-          <div class="email-block">
-            <h1>Email 1</h1>
-            <h5>Subject</h5>
-            <p>blah blah blah</p>
-          </div>  
-          <div class="email-block">
-            <h1>Email 2</h1>
-            <h5>Subject</h5>
-            <p>blah blah blah</p>
-          </div>  
-          <div class="email-block">
-            <h1>Email 3</h1>
-            <h5>Subject</h5>
-            <p>blah blah blah</p>
-          </div>  
-          <div class="email-block">
-            <h1>Email 4</h1>
-            <h5>Subject</h5>
-            <p>blah blah blah</p>
-          </div>  
+          <div class="list-group email-list">
 
+            <a href="#" class="list-group-item list-group-item-action email-block active">
+              <div class="email-details">
+                <h1>Email 1</h1>
+                <h5>Subject</h5>
+                <p>blah blah blah</p>
+              </div>
+              <div class="date">
+                January 1, 2023
+              </div>
+            </a>  
+            
+            <a href="#" class="list-group-item list-group-item-action email-block">
+              <div class="email-details">
+                <h1>Email 2</h1>
+                <h5>Subject</h5>
+                <p>blah blah blah</p>
+              </div>
+              <div class="date">
+                January 1, 2023
+              </div>
+            </a>
+              
+            <a href="#" class="list-group-item list-group-item-action email-block">
+              <div class="email-details">
+                <h1>Email 3</h1>
+                <h5>Subject</h5>
+                <p>blah blah blah</p>
+              </div>
+              <div class="date">
+                January 1, 2023
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action email-block">
+              <div class="email-details">
+                <h1>Email 4</h1>
+                <h5>Subject</h5>
+                <p>blah blah blah</p>
+              </div>
+              <div class="date">
+                January 1, 2023
+              </div>
+            </a>  
+          </div>
         </div>
 
         <!-- Right column, email details and response form -->
@@ -116,10 +131,6 @@
 </html>
 
 <!-- things that still need to happen: 
-  
-  turn left column into nav bar
-
-  turn emails into an unordered list as buttons
 
   better styling
 

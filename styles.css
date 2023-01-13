@@ -3,6 +3,8 @@
     background-color: lightgray;
     border: 3px solid lightblue;
     margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-col{
@@ -15,6 +17,10 @@
 
 .detail-col {
     background-color: antiquewhite;
+}
+
+.email-list {
+    margin: 10px;
 }
 
 @media screen and (min-width:992px) {
