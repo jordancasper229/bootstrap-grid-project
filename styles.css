@@ -16,3 +16,21 @@
 .detail-col {
     background-color: antiquewhite;
 }
+
+@media screen and (min-width:992px) {
+    .navbar, .navbar-nav, .nav-list, .navbar-expand-lg .navbar-nav{
+        flex-direction: column;
+    }
+}
+
+.nav-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:766px) {
+    .nav-col {
+        display: block;
+    }
+}
