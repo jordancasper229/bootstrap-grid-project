@@ -1,42 +1,88 @@
+.detail-col {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 .email-block {
-    background-color: lightgray;
-    border: 3px solid lightblue;
-    margin: 10px;
+    background-color: #C69C72;
+    border: 3px solid black;
+    border-radius: 2%;
+    margin: 3px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
+.website-name {
+    font-size: x-large;
+}
+
+.list-group-item.active.active-email {
+    background-color: #D09254;
+}
+
+.navbar {
+    background-color: #8d8476;
+}
+
 .nav-col{
-    background-color: darkgray;
+    background-color:#7A7265;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.date .email-details{
+    padding: 10px;
 }
 
 .email-col {
-    background-color: lightgoldenrodyellow;
+    background-color: #8E6E53;
 }
 
 .detail-col {
-    background-color: antiquewhite;
+    background-color: #C0B7B1;
 }
 
 .email-list {
     margin: 10px;
 }
 
-@media screen and (min-width:992px) {
+#replybox {
+    width: 100%;
+    border: none;
+}
+
+.reply {
+    position: relative;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.reply-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.nav-list {
+    margin-top: 10px;
+}
+
+.sender-address {
+    font-size: medium;
+    color: rgb(109, 109, 109);
+}
+
+@media (min-width:992px) {
     .navbar, .navbar-nav, .nav-list, .navbar-expand-lg .navbar-nav{
         flex-direction: column;
     }
 }
 
-.nav-col {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-@media screen and (max-width:766px) {
+@media (max-width:766px) {
     .nav-col {
         display: block;
     }
+
 }
